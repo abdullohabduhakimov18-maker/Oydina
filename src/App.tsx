@@ -177,7 +177,7 @@ export default function App() {
   const handleScrollToNotes = useCallback(() => {
     const el = document.getElementById('notes-section');
     if (el) {
-      el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      el.scrollIntoView({ behavior: 'smooth', block: 'center' });
     }
   }, []);
 
